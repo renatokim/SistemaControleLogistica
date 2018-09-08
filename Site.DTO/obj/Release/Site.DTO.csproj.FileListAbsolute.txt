@@ -1,0 +1,39 @@
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.DTO\bin\Release\Site.DTO.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.DTO\bin\Release\Site.DTO.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.DTO\bin\Release\Site.Entidade.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.DTO\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.DTO\obj\Release\Site.DTO.csprojResolveAssemblyReference.cache
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.DTO\obj\Release\Site.DTO.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.DTO\obj\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.DTO\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\Estoque\Site.DTO\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.DTO\obj\Release\Site.DTO.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.DTO\obj\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\Estoque\Site.DTO\obj\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.DTO\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\Estoque\Site.DTO\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.DTO\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.DTO\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.DTO\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.DTO\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.DTO\obj\Release\Site.DTO.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWeb\Site.DTO\obj\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.DTO\obj\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\obj\Release\Site.DTO.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\obj\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\obj\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.DTO\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.DTO\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.DTO\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.DTO\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.DTO\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.DTO\obj\Release\Site.DTO.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.DTO\obj\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.DTO\obj\Release\Site.DTO.pdb

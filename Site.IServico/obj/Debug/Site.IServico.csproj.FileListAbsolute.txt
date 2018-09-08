@@ -1,0 +1,62 @@
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.IServico\bin\Debug\Site.IServico.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.IServico\bin\Debug\Site.IServico.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.IServico\bin\Debug\Site.DTO.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.IServico\bin\Debug\Site.DTO.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.IServico\obj\Debug\Site.IServico.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.IServico\obj\Debug\Site.IServico.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.IServico\obj\Debug\Site.IServico.pdb
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.IServico.dll
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.IServico.pdb
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.DTO.dll
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.Entidade.dll
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.Enums.dll
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.Entidade.pdb
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.Enums.pdb
+C:\Users\Renato\Desktop\Estoque\Site.IServico\bin\Debug\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\Estoque\Site.IServico\obj\Debug\Site.IServico.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.IServico\obj\Debug\Site.IServico.dll
+C:\Users\Renato\Desktop\Estoque\Site.IServico\obj\Debug\Site.IServico.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.IServico.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.IServico.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\bin\Debug\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\obj\Debug\Site.IServico.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\obj\Debug\Site.IServico.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.IServico\obj\Debug\Site.IServico.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.IServico.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.IServico.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.DTO.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.Entidade.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.Enums.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.ActiveRecords.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.DTO.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.Entidade.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.Enums.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\bin\Debug\Site.ActiveRecords.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\obj\Debug\Site.IServico.csprojResolveAssemblyReference.cache
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\obj\Debug\Site.IServico.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.IServico\obj\Debug\Site.IServico.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.IServico.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.IServico.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\CloudrailSI.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\maxiPago.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.DTO.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.Entidade.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.Enums.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.ActiveRecords.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\maxiPago.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.DTO.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.Entidade.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.Enums.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\bin\Debug\Site.ActiveRecords.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\obj\Debug\Site.IServico.csprojResolveAssemblyReference.cache
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\obj\Debug\Site.IServico.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.IServico\obj\Debug\Site.IServico.pdb

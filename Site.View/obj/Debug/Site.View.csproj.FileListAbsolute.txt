@@ -1,0 +1,410 @@
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.View.dll.config
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.View.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.View.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Antlr3.Runtime.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.Core.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\EntityFramework.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Microsoft.Data.Edm.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Microsoft.Data.OData.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Newtonsoft.Json.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.DTO.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.Entidade.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.IServico.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.Servico.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Net.Http.Formatting.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Spatial.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Helpers.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Http.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Http.OData.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Http.WebHost.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Mvc.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Optimization.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Razor.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.WebPages.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.WebPages.Razor.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\WebGrease.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\WebMatrix.Data.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\WebMatrix.WebData.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.IRepositorio.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.Repositorio.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.DTO.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.Entidade.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.IServico.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.Servico.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\EntityFramework.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Newtonsoft.Json.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Net.Http.Formatting.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Helpers.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Http.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Http.WebHost.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Mvc.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Razor.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.WebPages.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.WebPages.Razor.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\WebMatrix.Data.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\WebMatrix.WebData.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.Core.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Web.Http.OData.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Microsoft.Data.Edm.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Microsoft.Data.OData.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\System.Spatial.xml
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.IRepositorio.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\Site.Repositorio.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\de\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\es\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\fr\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\it\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ja\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ko\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\ru\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\obj\Debug\Site.View.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\obj\Debug\Site.View.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.View\obj\Debug\Site.View.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.View.dll.config
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.View.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.View.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Antlr3.Runtime.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.Core.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\EntityFramework.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Microsoft.Data.Edm.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Microsoft.Data.OData.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Newtonsoft.Json.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.DTO.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Entidade.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Enums.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.IServico.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Servico.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Transforms.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Net.Http.Formatting.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Spatial.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Helpers.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Http.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Http.OData.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Http.WebHost.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Mvc.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Optimization.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Razor.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.WebPages.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.WebPages.Razor.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\WebGrease.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\WebMatrix.Data.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\WebMatrix.WebData.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Repositorio.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Entidade.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Enums.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.IServico.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Servico.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Transforms.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\EntityFramework.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Newtonsoft.Json.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Net.Http.Formatting.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Helpers.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Http.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Http.WebHost.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Mvc.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Razor.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.WebPages.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.WebPages.Razor.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\WebMatrix.Data.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\WebMatrix.WebData.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.Core.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Web.Http.OData.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Microsoft.Data.Edm.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Microsoft.Data.OData.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\System.Spatial.xml
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\de\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\es\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\fr\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\it\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ja\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ko\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\ru\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\obj\Debug\Site.View.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.View\obj\Debug\Site.View.dll
+C:\Users\Renato\Desktop\Estoque\Site.View\obj\Debug\Site.View.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.View.dll.config
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.View.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.View.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Antlr3.Runtime.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.Core.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\EntityFramework.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Microsoft.Data.Edm.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Microsoft.Data.OData.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Newtonsoft.Json.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.IServico.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Servico.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Transforms.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Net.Http.Formatting.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Spatial.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Helpers.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Http.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Http.OData.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Http.WebHost.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Mvc.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Optimization.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Razor.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.WebPages.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.WebPages.Razor.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\WebGrease.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\WebMatrix.Data.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\WebMatrix.WebData.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.IServico.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Servico.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Transforms.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\EntityFramework.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Newtonsoft.Json.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Net.Http.Formatting.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Helpers.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Http.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Http.WebHost.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Mvc.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Razor.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.WebPages.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.WebPages.Razor.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\WebMatrix.Data.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\WebMatrix.WebData.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.Core.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Web.Http.OData.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Microsoft.Data.Edm.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Microsoft.Data.OData.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\System.Spatial.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\de\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\es\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\fr\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\it\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ja\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ko\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\ru\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\obj\Debug\Site.View.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\obj\Debug\Site.View.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.View\obj\Debug\Site.View.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.View.dll.config
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.View.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.View.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Antlr3.Runtime.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.AspNet.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.Core.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.OAuth.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.OpenId.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\EntityFramework.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Microsoft.Data.Edm.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Microsoft.Data.OData.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Microsoft.Web.Infrastructure.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Newtonsoft.Json.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.DTO.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Entidade.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Enums.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.IServico.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Servico.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Transforms.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Net.Http.Formatting.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Spatial.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Helpers.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Http.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Http.OData.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Http.WebHost.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Mvc.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Optimization.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Razor.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.WebPages.Deployment.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.WebPages.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.WebPages.Razor.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\WebGrease.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\WebMatrix.Data.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\WebMatrix.WebData.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.ActiveRecords.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.IRepositorio.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Repositorio.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.DTO.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Entidade.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Enums.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.IServico.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Servico.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Transforms.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\EntityFramework.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Newtonsoft.Json.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Net.Http.Formatting.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Helpers.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Http.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Http.WebHost.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Mvc.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Razor.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.WebPages.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.WebPages.Deployment.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.WebPages.Razor.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\WebMatrix.Data.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\WebMatrix.WebData.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.AspNet.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.Core.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.OAuth.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.OpenId.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Web.Http.OData.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Microsoft.Data.Edm.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Microsoft.Data.OData.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\System.Spatial.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.ActiveRecords.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.IRepositorio.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\Site.Repositorio.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\de\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\es\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\it\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\de\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\es\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\fr\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\it\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ja\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ko\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ru\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\de\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\es\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\fr\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\it\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ja\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ko\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\ru\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\zh-Hans\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\bin\zh-Hant\System.Spatial.resources.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\obj\Debug\Site.View.csprojResolveAssemblyReference.cache
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\obj\Debug\Site.View.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.View\obj\Debug\Site.View.pdb

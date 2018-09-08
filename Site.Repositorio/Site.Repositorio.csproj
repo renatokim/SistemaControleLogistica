@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{295DB307-985F-4A3F-B6D9-A313B185ED9A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Site.Repositorio</RootNamespace>
+    <AssemblyName>Site.Repositorio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CloudrailSI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GitHub.Api.1.0.3\lib\CloudrailSI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Dapper">
+      <HintPath>..\packages\Dapper.1.42\lib\net45\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\dados\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chamados\ChamadoRepositorio.cs" />
+    <Compile Include="Chamados\HistoricoRepositorio.cs" />
+    <Compile Include="Contexto.cs" />
+    <Compile Include="FreteRepositorio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios\RelatorioRepositorio.cs" />
+    <Compile Include="RepositorioGenerico.cs" />
+    <Compile Include="RepositoryFactory.cs" />
+    <Compile Include="RotaRepositorio.cs" />
+    <Compile Include="TransporteRepositorio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Site.ActiveRecords\Site.ActiveRecords.csproj">
+      <Project>{191B1E71-1A68-42CD-A892-29AD760FECB2}</Project>
+      <Name>Site.ActiveRecords</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.DTO\Site.DTO.csproj">
+      <Project>{B85E0D48-8296-475F-96A7-9AEA99688E1E}</Project>
+      <Name>Site.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.Entidade\Site.Entidade.csproj">
+      <Project>{D28BE576-3E19-4851-82BD-EC22637AABF3}</Project>
+      <Name>Site.Entidade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.Enums\Site.Enums.csproj">
+      <Project>{974A35C9-19A4-4F5C-89EA-224B7D614B3C}</Project>
+      <Name>Site.Enums</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.IRepositorio\Site.IRepositorio.csproj">
+      <Project>{FA5E0D96-AE22-4723-99A3-277C385DBBEE}</Project>
+      <Name>Site.IRepositorio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cadastro\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

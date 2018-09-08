@@ -1,0 +1,19 @@
+C:\Users\Renato\Desktop\Estoque\Site.Enums\bin\Debug\Site.Enums.dll
+C:\Users\Renato\Desktop\Estoque\Site.Enums\bin\Debug\Site.Enums.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Enums\obj\Debug\Site.Enums.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.Enums\obj\Debug\Site.Enums.dll
+C:\Users\Renato\Desktop\Estoque\Site.Enums\obj\Debug\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Enums\bin\Debug\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Enums\bin\Debug\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Enums\obj\Debug\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Enums\obj\Debug\Site.Enums.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Enums\bin\Debug\Site.Enums.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Enums\bin\Debug\Site.Enums.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Enums\obj\Debug\Site.Enums.csprojResolveAssemblyReference.cache
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Enums\obj\Debug\Site.Enums.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Enums\obj\Debug\Site.Enums.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Enums\bin\Debug\Site.Enums.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Enums\bin\Debug\Site.Enums.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Enums\bin\Debug\CloudrailSI.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Enums\obj\Debug\Site.Enums.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Enums\obj\Debug\Site.Enums.pdb

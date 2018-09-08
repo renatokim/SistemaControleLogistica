@@ -1,0 +1,265 @@
+﻿@using Site.Enums
+@model Site.DTO.Relatorio.DTORetornoRelatorioFaccao
+
+<div class="container">
+    <legend>Relatório por Facção</legend>
+</div>
+@{
+
+    <div>
+        <table class="table table-bordered">
+            <tbody>
+                <tr class="alert-info">
+                    <th colspan="7">
+                        <center>INFORMAÇÕES DA FACÇÃO</center>
+                    </th>
+                </tr>
+                <tr class="alert-info">
+                    <th>
+                        Facção
+                    </th>
+                    <th>
+                        Telefone
+                    </th>
+                    <th>
+                        Setor
+                    </th>
+                    <th>
+                        Maquinário
+                    </th>
+                    <th>
+                        Endereço
+                    </th>
+                    <th>
+                        Rota
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                </tr>
+                <tr>
+                    <td>@Model.Faccao.Descricao.ToUpper()</td>
+                    <td>@Model.Faccao.Telefone</td>
+                    <td>@Model.Faccao.Setor</td>
+                    <td>@Model.Faccao.Maquinario</td>
+                    <td>@Model.Faccao.Endereco</td>
+                    <td>@Model.Faccao.Rota</td>
+                    <td>@Model.Faccao.Status</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <table class="table table-bordered esconder">
+            <tbody>
+                <tr class="alert-info">
+                    <th colspan="7">
+                        <center>INFORMAÇÕES DOS PEDIDOS</center>
+                    </th>
+                </tr>
+                <tr class="alert-info">
+                    <th>
+                        Data Pedido
+                    </th>
+                    <th>
+                        Data Start Fluxo
+                    </th>
+                    <th>
+                        Pedido
+                    </th>
+                    <th>
+                        Cliente
+                    </th>
+                    <th>
+                        Vendedor
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th>
+                        Obs
+                    </th>
+                </tr>
+                @foreach (var item in Model.Pedidos)
+                {
+                    <tr>
+                        <td>@item.DataCriacao.ToString("dd/MM/yyyy")</td>
+                        <td>@item.DataStartFluxo.ToString("dd/MM/yyyy")</td>
+                        <td>@item.Numero</td>
+                        <td>@item.Cliente.Nome</td>
+                        <td>@item.Vendedor.Descricao</td>
+                        <td>@item.StatusPedido</td>
+                        <td>@item.Obs</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    
+<div>
+          <table class="table table-bordered">
+            <tbody>
+			<tr class="alert-info">
+			<th colspan="11">
+				<center>INFORMAÇÕES DOS PRODUTOS</center>
+			</th>
+		</tr>
+                <tr class="alert-info">
+                    <th>
+                        Data Pedido
+                    </th>
+                    <th>
+                        Pedido
+                    </th>                  
+                    <th>
+                        Cliente
+                    </th>
+                    <th>
+                        Qtde
+                    </th> 
+                    <th class="esconder">
+                        Produto
+                    </th> 
+                    <th width="10%">
+                        Masc/Fem
+                    </th>
+                    <th>
+                        Tecido
+                    </th>
+                    <th>
+                        Obs
+                    </th>
+                    <th>
+                        Partes
+                    </th>
+                    <th>
+                        Acréscimos
+                    </th>
+                    <th>
+                        Tamanhos
+                    </th>	
+                </tr>
+                @{
+                    foreach (var pedido in Model.Pedidos)
+                    {
+                        foreach (var pedidoProduto in pedido.PedidoProduto)
+                        {
+                        <tr>
+                            <td>@pedidoProduto.Pedido.DataCriacao.ToString("dd/MM/yyyy")</td>
+                            <td>@pedidoProduto.Pedido.Numero</td>
+                            <td>@pedidoProduto.Pedido.Cliente.Nome</td>
+                            <td>@pedidoProduto.Quantidade</td>
+                            <td>@pedidoProduto.Produto.Nome</td>
+                            <td>@pedidoProduto.MasculinoFeminino.ToString().ToUpper()</td>
+                            <td>@pedidoProduto.Tecido.Nome</td>
+                            <td>@pedidoProduto.Obs</td>
+                            <td>
+                                @{
+                                    foreach (var parteAcrescimo in pedidoProduto.ProdutoParteAcrescimo.Where(x => x.ParteAcrescimo.ParteOuAcrescimo == ParteOuAcrescimo.Parte))
+                                    {
+                                        if (parteAcrescimo.Quantidade == 0)
+                                        {
+                                            <p style="margin-bottom:0">@parteAcrescimo.ParteAcrescimo.Nome</p>
+                                        }
+                                        else
+                                        {
+                                            <p style="margin-bottom:0">@parteAcrescimo.Quantidade @parteAcrescimo.ParteAcrescimo.Nome</p>
+                                        }
+                                    }
+                                }
+                            </td>
+                            <td>
+                                @{
+                                    foreach (var parteAcrescimo in pedidoProduto.ProdutoParteAcrescimo.Where(x => x.ParteAcrescimo.ParteOuAcrescimo == ParteOuAcrescimo.Acrescimo))
+                                    {
+                                        if (parteAcrescimo.Quantidade == 0)
+                                        {
+                                            <p style="margin-bottom:0">@parteAcrescimo.ParteAcrescimo.Nome</p>
+                                        }
+                                        else
+                                        {
+                                            <p style="margin-bottom:0">@parteAcrescimo.Quantidade @parteAcrescimo.ParteAcrescimo.Nome</p>
+                                        }
+                                    }
+                                }                              
+                            </td>
+                            <td>
+                                @{
+                                    foreach (var tamanho in pedidoProduto.ProdutoTamanhos)
+                                    {
+                                        if (tamanho.Quantidade > 0)
+                                        {
+                                            <p style="margin-bottom:0">@tamanho.Quantidade @tamanho.Tamanho.Descricao</p>
+                                        }
+                                        else
+                                        {
+                                            <p style="margin-bottom:0">@tamanho.Tamanho.Descricao</p>
+                                        }
+                                    }
+                                }
+                            </td>
+                        </tr>                            
+                        }
+                    }
+                }
+            </tbody>
+          </table>
+        </div>    
+
+    <div>
+        <table class="table table-bordered">
+            <tbody>
+                <tr class="alert-info">
+                    <th colspan="8">
+                        <center>INFORMAÇÕES DO FLUXO</center>
+                    </th>
+                </tr>
+                <tr class="alert-info">
+                    <th>
+                        Ação
+                    </th>
+                    <th>
+                        Data Fluxo
+                    </th>
+                    <th>
+                        Qtde
+                    </th>
+                    <th>
+                        Produto
+                    </th>
+                    <th>
+                        Obs
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th>
+                        Andamento
+                    </th>
+                    <th>
+                        Pedido
+                    </th>
+                </tr>
+                @foreach (var item in Model.FluxoHistoricos.OrderBy(p => p.Id).ThenBy(a => a.Andamento).ToList())
+                {
+                    <tr>
+                        <td>@item.EnvioRetorno</td>
+                        <td>@item.Data.ToString("dd/MM/yyyy")</td>
+                        <td>@item.Quantidade</td>
+                        <td>@item.PedidoProduto.Produto.Nome @item.PedidoProduto.MasculinoFeminino.ToString().ToUpper() @item.PedidoProduto.Tecido.Nome</td>
+                        <td>@item.Obs</td>
+                        <td>@item.StatusFluxo</td>
+                        <td>@item.DescricaoAndamento</td>
+                        <td>@item.DescricaoPedido</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+
+}
+
+

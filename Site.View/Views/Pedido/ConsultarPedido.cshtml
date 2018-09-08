@@ -1,0 +1,149 @@
+﻿@using Site.Entidade.Pedidos
+@using Site.Enums
+@model Site.View.ViewModel.ConsultaPedidoViewModel
+
+
+<div class="row">
+    <div class="span12" style="margin-left: 50px">
+        
+        @Html.Partial("../Shared/_Mensagem")
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend>Buscar Pedido</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="editor-label">
+                                Data Inicial
+                            </div>
+                            <div class="editor-field">
+                                <input type="date" value="@Model.DataInicial.ToString("yyyy-MM-dd")" name="DataInicial" required="required">
+                            </div>                            
+                        </td>
+                        <td>
+                            <div class="editor-label">
+                                Data Final
+                            </div>
+                            <div class="editor-field">
+                                <input type="date" value="@Model.DataFinal.ToString("yyyy-MM-dd")" name="DataFinal" required="required">
+                            </div>
+                        </td>
+                        <td>
+                            <p>
+                                <input class="btn" type="submit" value="Buscar" style="margin-top: 20px" />
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        }
+    </div>
+</div>
+
+<script src="~/Scripts/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#tabela').DataTable({
+            "oLanguage": {
+                "sProcessing": "Processando...",
+                "sLengthMenu": "Mostrar _MENU_ registros",
+                "sZeroRecords": "Não foram encontrados resultados",
+                "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando de 0 até 0 de 0 registros",
+                "sInfoFiltered": "",
+                "sInfoPostFix": "",
+                "sSearch": "Buscar:",
+                "sUrl": "",
+                "oPaginate": {
+                    "sFirst": "Primeiro",
+                    "sPrevious": "Anterior",
+                    "sNext": "Seguinte",
+                    "sLast": "Último"
+                }
+            }
+        });
+    });
+</script>
+
+@{
+    if (Model.Pedidos.Count > 0)
+    {
+        <table id="tabela" class="table" width="100%">
+            <thead>
+                <tr>
+                    <th>
+                        Data
+                    </th>
+                    <th>
+                        Cliente
+                    </th>
+                    <th>
+                        Numero
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                    <th>
+                        Vendedor
+                    </th>
+                    <th>
+                        Situação
+                    </th>
+                    <th width="20%">
+                        Ação
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pedidos in Model.Pedidos)
+                {
+                    <tr>
+                        <td>
+                            @pedidos.DataCriacao.ToString("dd/MM/yyyy")
+                        </td>
+                        <td>
+                            @pedidos.Cliente.Nome
+                        </td>
+                        <td>
+                            @pedidos.Numero
+                        </td>
+                        <td>
+                            @pedidos.PedidoProduto.Sum(x => x.Valor * x.Quantidade).ToString("N2")
+                        </td>
+                        <td>
+                            @pedidos.Vendedor.Descricao
+                        </td>
+                        <td>
+                            @pedidos.StatusPedido
+                        </td>
+                        <td>
+                            <a href="http://websistema.net.br/webvendas/index.php/sv/pedidos/sv_relatorioConsumo/@pedidos.Id">Detalhar</a>
+                            @{
+                                if (pedidos.StatusPedido != StatusPedido.Cancelado)
+                                {
+                                    <font> | </font> @Html.ActionLink("Editar ", "Edit", new {id = pedidos.Id}) <font> | </font> @Html.ActionLink("Consumo", "ConsumoMP", new {id = pedidos.Id}) <font> | </font> <a onclick="CancelarPedido(@pedidos.Id)">Cancelar</a>
+                                }
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    }
+}
+
+<script>
+    function CancelarPedido(id) {
+        if (confirm("Cancelar Pedido?")) {
+            var rota = window.location.href.replace("ConsultarPedido", "CancelarPedido").replace("consultarPedido", "CancelarPedido") + "/" + id;
+            window.location.replace(rota);
+        }
+    }
+</script>

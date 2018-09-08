@@ -1,0 +1,220 @@
+﻿@using System.Web.UI.WebControls
+@using Site.Enums
+@model Site.DTO.Chamado.DTOChamado
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>
+    </title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <br />
+    <br />
+
+    @using (Html.BeginForm())
+    {
+        <div class="container">
+            <p>
+                <a href="@Url.Action("Index", "Chamado")" class="btn btn-default">Voltar</a>
+            </p>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Alterar Chamado
+                    </h3>
+                </div>
+
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+
+                @Html.HiddenFor(model => model.Id)
+
+                <div class="panel-body">
+
+                    <table width="100%">
+                        <tr>
+                            <td width="50%">
+                                <div class="form-group">
+                                    <label>
+                                        Sistema
+                                    </label>
+                                    <select required name="Sistema" class="form-control">
+                                        <option @if (Model.Sistema == SistemaChamado.SistemaFinanceiro)
+                                                { string selected = "selected"; @selected }  value="SistemaFinanceiro">
+                                            Sistema Financeiro
+                                        </option>
+                                        <option @if (Model.Sistema == SistemaChamado.SistemaVendas) 
+                                                { string selected = "selected"; @selected } value="SistemaVendas">
+                                            Sistema de Vendas
+                                        </option>
+                                        <option @if (Model.Sistema == SistemaChamado.SistemaProducao) { string selected = "selected"; @selected } value="SistemaProducao">
+                                            Sistema de Produção
+                                        </option>
+                                        <option @if (Model.Sistema == SistemaChamado.Outros) { string selected = "selected"; @selected } value="Outros">
+                                            Outros
+                                        </option>
+
+                                    </select>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <label>
+                                        Tipo
+                                    </label>
+                                    <select name="TipoChamado" required class="form-control">
+                                        <option @if (Model.TipoChamado == TipoChamado.Erro) { string selected = "selected"; @selected } value="Erro">
+                                            Erro
+                                        </option>
+                                        <option @if (Model.TipoChamado == TipoChamado.Melhoria) { string selected = "selected"; @selected } value="Melhoria">
+                                            Melhoria
+                                        </option>
+                                        <option @if (Model.TipoChamado == TipoChamado.Atendimento) { string selected = "selected"; @selected } value="Atendimento">
+                                            Atendimento
+                                        </option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-group">
+                                    <label>
+                                        Prioridade
+                                    </label>
+                                    <select required name="Prioridade" class="form-control">
+                                        <option @if (Model.Prioridade == PrioridadeChamado.Alta) { string selected = "selected"; @selected } value="Alta">
+                                            Alta
+                                        </option>
+                                        <option @if (Model.Prioridade == PrioridadeChamado.Media) { string selected = "selected"; @selected } value="Media">
+                                            Média
+                                        </option>
+                                        <option @if (Model.Prioridade == PrioridadeChamado.Baixa) { string selected = "selected"; @selected } value="Baixa">
+                                            Baixa
+                                        </option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <label>
+                                        Status
+                                    </label>
+                                    <select name="Status" required class="form-control">
+                                        <option @if (Model.Status == StatusChamado.Aberto) { string selected = "selected"; @selected  } value="Aberto">
+                                            Aberto
+                                        </option>
+                                        <option @if (Model.Status == StatusChamado.Recebido) { string selected = "selected"; @selected   } value="Recebido">
+                                            Recebido
+                                        </option>
+                                        <option @if (Model.Status == StatusChamado.Desenvolvimento) { string selected = "selected"; @selected   } value="Desenvolvimento">
+                                            Desenvolvimento
+                                        </option>
+                                        <option @if (Model.Status == StatusChamado.Teste) { string selected = "selected"; @selected   } value="Teste">
+                                            Teste
+                                        </option>
+                                        <option @if (Model.Status == StatusChamado.Concluido) { string selected = "selected"; @selected   } value="Concluido">
+                                            Concluido
+                                        </option>
+                                        <option @if (Model.Status == StatusChamado.Cancelado) { string selected = "selected"; @selected   } value="Cancelado">
+                                            Cancelado
+                                        </option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="form-group">
+                        <label>
+                            Pendente com
+                        </label>
+                        <select name="PendenteCom" required class="form-control">
+                            <option @if (Model.PendenteCom == PendenteComChamado.Renato) { string selected = "selected"; @selected } value="Renato">
+                                Renato
+                            </option>
+                            <option @if (Model.PendenteCom == PendenteComChamado.Segura) { string selected = "selected"; @selected  } value="Segura">
+                                Segura
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            Assunto
+                        </label>
+                        <input required name="Assunto" type="text" class="form-control" value="@Model.Assunto">
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            Descrição
+                        </label>
+                        <textarea required name="Descricao" class="form-control" rows="5">@Model.Descricao</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">
+                        Alterar
+                    </button>
+                    &nbsp;
+                </div>
+
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Históricos
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label>
+                            Comentário
+                        </label>
+                        <textarea name="Comentario" class="form-control" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">
+                        Inserir Comentário
+                    </button>
+
+                    <br />
+                    <br />
+                    <div class="form-group">
+                        @{
+                            foreach (var item in Model.Historico.OrderByDescending(x => x.Data))
+                            {
+                                <div class="alert alert-info">
+                                    <p>
+                                        @item.Data.ToString("dd/MM/yyyy HH:mm")
+                                    </p>
+                                    <p>
+                                        @item.Descricao
+                                    </p>
+                                </div>
+                            }
+                        }                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js">
+    </script>
+</body>
+</html>

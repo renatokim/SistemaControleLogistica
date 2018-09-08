@@ -1,0 +1,362 @@
+﻿<script src="~/Scripts/ajax/pedidos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+<style>
+    .miniFonte {
+        color: white;
+        font-size: 0;
+    }
+
+    .pequenaFonte {
+        font-size: 12px;
+    }
+
+    .mediaFonte {
+        font-size: 16px;
+    }
+
+    .fonteSize10 {
+        font-size: 10px;
+    }
+
+    .margin0 {
+        margin: 0;
+    }
+</style>
+
+@using Site.DTO
+@using Site.DTO.Fluxo
+@using Site.Entidade.Pedidos
+@model IEnumerable<DTOFluxoGeral>
+
+<div style="margin-top: 50px" class="modal hide" id="pleaseWaitDialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-header">
+        <h3>Aguarde...</h3>
+    </div>
+    <div class="modal-body">
+        <div class="progress progress-striped active">
+            <div class="bar" style="width: 100%;"></div>
+        </div>
+    </div>
+</div>
+
+@{
+    var filtro = (DTOFluxoPaginacao) TempData["Filtro"];
+}
+
+<div class="hide" id="filtroHide">
+    @filtro.FluxoPaginacao
+</div>
+
+<link href="~/Scripts/multiSelect/multiple-select.css" rel="stylesheet" />
+<script src="~/Scripts/multiSelect/multiple-select.js"></script>
+
+@using (Html.BeginForm("Index", "Fluxo"))
+{
+    <input type="hidden" name="PaginaAtual" id="paginaAtual" value="@filtro.PaginaAtual" />
+    <input type="hidden" name="Ordem" id="ordem" value="@filtro.Ordem" />
+
+    <div class="row">
+        <div class="span4">
+            @{
+    var clientesSelect = (IList<Cliente>) TempData["Clientes"];
+                var clienteDistinct = clientesSelect.Select(c => new {c.Id, c.Nome}).Distinct().OrderBy(x => x.Nome).ToList();
+
+                <label>Clientes</label>
+    <select id="ms" multiple="multiple" class="clientesPorPagina" name="Clientes">
+        @foreach (var item in clienteDistinct)
+        {
+            if (filtro.Clientes.Contains(item.Id))
+            {
+                <option selected="selected" value="@item.Id">@item.Nome</option>
+            }
+            else
+            {
+                <option value="@item.Id">@item.Nome</option>
+            }
+        }
+    </select>
+}       
+        </div>
+        <div class="span4">
+            @{
+        var faccoesSelect = (IList<DTOFaccao>) TempData["Faccoes"];
+
+                <label>Facções</label>
+    <select id="msFaccao" multiple="multiple" class="faccaoPorPagina" name="Faccoes">
+        @foreach (var item in faccoesSelect)
+        {
+            if (filtro.Faccoes.Contains(item.Id))
+            {
+                <option selected="selected" value="@item.Id">@item.Descricao</option>
+            }
+            else
+            {
+                <option value="@item.Id">@item.Descricao</option>
+            }
+        }
+    </select>
+}
+        </div>
+        <div class="span1">
+            @{
+                <label>Qtde</label>
+    <input class="input-mini" type="number" value="@filtro.QtdePorPagina" min="0" id="qtdeRegistroPorPagina" name="QtdePorPagina" />
+}
+        </div>
+        <div class="span4">
+            @{
+                string selectedSim = filtro.SubTotal == "Sim" ? "selected" : string.Empty;
+                string selectedNao = filtro.SubTotal == "Nao" ? "selected" : string.Empty;
+                <label>SubTotal</label>
+                <select class="input-medium" id="subTotal" name="SubTotal">
+                    <option @selectedSim value="Sim">Sim</option>
+                    <option @selectedNao value="Nao">Não</option>
+                </select>
+                
+                <input type="submit" style="margin-top: -10px" href="#" class="btn btn-default" id="buscarPaginacaoFluxo" value="Buscar" /> 
+            }
+        </div>
+    </div>
+}
+    
+@{
+    int totalTlt = 0;
+    int totalSlt = 0;
+    int totalArt = 0;
+    int totalMod = 0;
+    int totalMp = 0;
+    int totalCrt = 0;
+    int totalSlk = 0;
+    int totalBrd = 0;
+    int totalCst = 0;
+    int totalBt = 0;
+    int totaConf = 0;
+    int totalExt1 = 0;
+    int totalSlk2 = 0;
+    int totalBrd2 = 0;
+    int totalBot = 0;
+    int totalExt2 = 0;
+    int totalEmb = 0;
+    int totalEnt = 0;
+}
+
+<table style="margin-bottom:0"  id="tabelas" class="table table-condensed table-bordered pequenaFonte">
+    <thead>
+        <tr>
+            <th><a class="loading" href="@Url.Action("Ordenar", "Fluxo", new { coluna = "p.data_criacao", filtro = filtro.FluxoPaginacao })">Data</a></th>
+            <th width="10%"><a class="loading" href="@Url.Action("Ordenar", "Fluxo", new { coluna = "c.cliente", filtro = filtro.FluxoPaginacao })">Cliente</a></th>
+            <th><a class="loading" href="@Url.Action("Ordenar", "Fluxo", new { coluna = "p.id", filtro = filtro.FluxoPaginacao })">P</a></th>
+            <th><a class="loading" href="@Url.Action("Ordenar", "Fluxo", new { coluna = "p.data_previsao_entrega", filtro = filtro.FluxoPaginacao })">Prev</a></th>
+            <th width="8%"><a class="loading" href="@Url.Action("Ordenar", "Fluxo", new { coluna = "p.obs", filtro = filtro.FluxoPaginacao })">Obs</a></th>
+            <th>Ttl</th>
+            <th>Sld</th>
+            <th>Art</th>
+            <th>Mod</th>
+            <th>MP</th>
+            <th>Crt</th>
+            <th>Slk</th>
+            <th>Brd</th>
+            <th>Cst</th>
+            <th>Bt</th>
+            <th>Conf</th>
+            <th>Ext1</th>
+            <th>Slk</th>
+            <th>Brd</th>
+            <th>Bot</th>
+            <th>Ext2</th>
+            <th>Emb</th>
+            <th>Ent</th>
+            <th>F</th>
+            <th width="10%">Data/Facções</th>
+            <th width="15%"><a class="loading" href="@Url.Action("Ordenar", "Fluxo", new { coluna = "p.obs_dia", filtro = filtro.FluxoPaginacao })">Obs Dia</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            totalTlt += item.QtdeTotal;
+            totalSlt += item.QtdeSaldo;
+            totalArt += item.QtdeArte;
+            totalMod += item.QtdeModelagem;
+            totalMp += item.QtdeMateriaPrima;
+            totalCrt += item.QtdeCorte;
+            totalSlk += item.QtdeSilk;
+            totalBrd += item.QtdeBordadoParte;
+            totalCst += item.QtdeCostura;
+            totalBt += item.QtdeBotoes;
+            totaConf += item.QtdeConferencia;
+            totalExt1 += item.QtdeEtapaExtra1;
+            totalSlk2 += item.QtdeSilkPeca;
+            totalBrd2 += item.QtdeBordadePeca;
+            totalBot += item.QtdeBotaoPosterior;
+            totalExt2 += item.QtdeEtapaExtra2;
+            totalEmb += item.QtdeEmbalagem;
+            totalEnt += item.QtdeEntrega;
+            <tr>
+                <td>
+                    <font class="miniFonte">@item.DataPedido.ToString("yyyyMMdd")</font>@item.DataPedido.ToString("dd/MM")
+                </td>
+                <td>
+                    <a style="text-decoration:none" href="/webvendas/index.php/fluxos/detalhar_fluxo/@item.Id">@item.Cliente</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PedidoId)
+                </td>
+                <td>
+                    <font class="miniFonte">@item.DataPedido.ToString("yyyyMMdd")</font>@item.DataPrevisao.ToString("dd/MM")
+                </td>
+                <td>
+                    @{
+            if (!string.IsNullOrWhiteSpace(item.Obs) && item.Obs.Count() > 10)
+            {
+                <div data-toggle="tooltip" data-placement="top" title="@item.Obs">@item.Obs.Substring(0, 10) ...</div>
+            }
+            else
+            {
+                <div data-toggle="tooltip" data-placement="top" title="@item.Obs">@item.Obs</div>
+            }
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QtdeTotal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QtdeSaldo)
+                </td>
+                <td style="background: @item.CorArte">
+                    @Html.DisplayFor(modelItem => item.QtdeArte)
+                </td>
+                <td style="background: @item.CorModelagem">
+                    @Html.DisplayFor(modelItem => item.QtdeModelagem)
+                </td>
+                <td style="background: @item.CorMateriaPrima">
+                    @Html.DisplayFor(modelItem => item.QtdeMateriaPrima)
+                </td>
+                <td style="background: @item.CorCorte">
+                    @Html.DisplayFor(modelItem => item.QtdeCorte)
+                </td>
+                <td style="background: @item.CorSilk">
+                    @Html.DisplayFor(modelItem => item.QtdeSilk)
+                </td>
+                <td style="background: @item.CorBordadoParte">
+                    @Html.DisplayFor(modelItem => item.QtdeBordadoParte)
+                </td>
+                <td style="background: @item.CorCostura">
+                    @Html.DisplayFor(modelItem => item.QtdeCostura)
+                </td>
+                <td style="background: @item.CorBotoes">
+                    @Html.DisplayFor(modelItem => item.QtdeBotoes)
+                </td>
+                <td style="background: @item.CorConferencia">
+                    @Html.DisplayFor(modelItem => item.QtdeConferencia)
+                </td>
+                <td style="background: @item.CorEtapaExtra1">
+                    @Html.DisplayFor(modelItem => item.QtdeEtapaExtra1)
+                </td>
+                <td style="background: @item.CorSilkPeca">
+                    @Html.DisplayFor(modelItem => item.QtdeSilkPeca)
+                </td>
+                <td style="background: @item.CorBordadePeca">
+                    @Html.DisplayFor(modelItem => item.QtdeBordadePeca)
+                </td>
+                <td style="background: @item.CorBotaoPosterior">
+                    @Html.DisplayFor(modelItem => item.QtdeBotaoPosterior)
+                </td>
+                <td style="background: @item.CorEtapaExtra2">
+                    @Html.DisplayFor(modelItem => item.QtdeEtapaExtra2)
+                </td>
+                <td style="background: @item.CorEmbalagem">
+                    @Html.DisplayFor(modelItem => item.QtdeEmbalagem)
+                </td>
+                <td style="background: @item.CorEntrega">
+                    @Html.DisplayFor(modelItem => item.QtdeEntrega)
+                </td>
+                <td>
+                    @{
+            if (item.QtdeTotal == item.QtdeEntrega)
+            {
+                <a href="@Url.Action("Finalizar", "Fluxo", new { id = item.Id })" class="btn btn-default finalizar">F</a>
+            }
+                    }
+                </td>
+                <td>
+                    @{
+                        foreach (var faccoes in item.Faccoes)
+                        {
+                            <p class="fonteSize10 margin0">@faccoes.Split('_')[1]</p>
+                        }
+                    }
+                </td>
+                <td class="obs" id="@item.Id">
+                    <div class="fonteSize10 margin0">@item.ObsDia</div>
+                </td>
+            </tr>
+        }
+        
+        @{
+            if (filtro.SubTotal == "Sim")
+            {
+
+                <tr>
+                    <th colspan="5">TOTAL</th>
+                    <th>@totalTlt</th>
+                    <th>@totalSlt</th>
+                    <th>@totalArt</th>
+                    <th>@totalMod</th>
+                    <th>@totalMp</th>
+                    <th>@totalCrt</th>
+                    <th>@totalSlk</th>
+                    <th>@totalBrd</th>
+                    <th>@totalCst</th>
+                    <th>@totalBt</th>
+                    <th>@totaConf</th>
+                    <th>@totalExt1</th>
+                    <th>@totalSlk2</th>
+                    <th>@totalBrd2</th>
+                    <th>@totalBot</th>
+                    <th>@totalExt2</th>
+                    <th>@totalEmb</th>
+                    <th>@totalEnt</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            }
+        }            
+    </tbody>
+</table>
+<center>
+    @{
+        int qtdeBotoes = (int) TempData["QtdeBotoes"];
+        <div style="margin-top: 0" class="pagination">
+            <ul>
+                @for (int i = 1; i <= qtdeBotoes; i++)
+                {
+                    string style = filtro.PaginaAtual == i - 1 ? "style=background-color:#E6E6E6" : string.Empty;
+                    <li><a class="btnPaginacao" @style data-value="@i" >@i</a></li>
+                }
+            </ul>
+        </div>
+    }
+</center>
+
+<script>
+    $(function () {
+        $('#ms').multipleSelect({
+            width: '100%'
+        });
+    });
+
+    $(function () {
+        $('#msFaccao').multipleSelect({
+            width: '100%'
+        });
+    });
+</script>

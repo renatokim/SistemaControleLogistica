@@ -1,0 +1,144 @@
+﻿@using Site.Enums
+@model IEnumerable<Site.DTO.DTOEntradaEstoque>
+
+@{
+    var matP = string.Empty;
+    var tec = string.Empty;
+    var valor = string.Empty;
+    var nota = string.Empty;
+    var facc = string.Empty;
+
+    if (Model.Any())
+    {
+        if (Model.First().EntradaSaida.Equals(EntradaOuSaida.Entrada) && Model.First().TecidoAviamento.Equals(TecidoOuAviamento.Tecido))
+        {
+            matP = "hidden";
+            facc = "hidden";
+        }
+        else if (Model.First().EntradaSaida.Equals(EntradaOuSaida.Entrada) && Model.First().TecidoAviamento.Equals(TecidoOuAviamento.Aviamento))
+        {
+            tec = "hidden";
+            facc = "hidden";
+        }
+        else if (Model.First().EntradaSaida.Equals(EntradaOuSaida.Saida) && Model.First().TecidoAviamento.Equals(TecidoOuAviamento.Tecido))
+        {
+            matP = "hidden";
+            valor = "hidden";
+            nota = "hidden";
+        }
+        else if (Model.First().EntradaSaida.Equals(EntradaOuSaida.Saida) && Model.First().TecidoAviamento.Equals(TecidoOuAviamento.Aviamento))
+        {
+            tec = "hidden";
+            valor = "hidden";
+            nota = "hidden";
+        }
+
+        <br />
+        <table class="table table-bordered" id="tabelaEstoque" width="100%">
+            <thead>
+                <tr>
+                    <th>
+                        Data
+                    </th>
+                    <th class="@matP">
+                        Aviamento
+                    </th>
+                    <th class="@tec">
+                        Tecido
+                    </th>
+                    <th>
+                        Quantidade
+                    </th>
+                    <th class="@valor">
+                        Valor
+                    </th>
+                    <th class="@nota">
+                        Nº Nota
+                    </th>
+                    <th>
+                        Obs
+                    </th>
+                    <th class="@facc">
+                        Facção
+                    </th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.Data.ToString("dd/MM/yyyy")
+                        </td>
+                        <td class="@matP">
+                            @*@Html.DisplayFor(modelItem => item.MateriaPrima.Descricao)*@
+                        </td>
+                        <td class="@tec">
+                            @Html.DisplayFor(modelItem => item.Tecido.DescricaoTecido)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantidade)
+                        </td>
+                        <td class="@valor">
+                            @Html.DisplayFor(modelItem => item.Valor)
+                        </td>
+                        <td class="@nota">
+                            @Html.DisplayFor(modelItem => item.NumeroNota)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Obs)
+                        </td>
+                        <td class="@facc">
+                            @Html.DisplayFor(modelItem => item.Faccao.Descricao)
+                        </td>
+                        <td width="10%">
+                            @Html.ActionLink("Editar", "ManterEstoque", new
+                            {
+                                EntradaSaida = item.EntradaSaida.ToString().Substring(0, 1),
+                                tecidoAviamento = item.TecidoAviamento.ToString().Substring(0, 1),
+                                id = item.Id
+                            })
+                            | 
+                            @Html.ActionLink("Excluir", "Delete", new { id = item.Id }, new { @class = "botaoExcluir" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+
+<script type="text/javascript" language="javascript" class="init">
+    $(document).ready(function () {
+        $('#tabelaEstoque').dataTable({
+            "bSort": false,
+            "language": {
+                "sEmptyTable": "Nenhum registro encontrado",
+                "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
+                "sInfoFiltered": "(Filtrados de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sInfoThousands": ".",
+                "sLengthMenu": "_MENU_ resultados por página",
+                "sLoadingRecords": "Carregando...",
+                "sProcessing": "Processando...",
+                "sZeroRecords": "Nenhum registro encontrado",
+                "sSearch": "Pesquisar",
+                "oPaginate": {
+                    "sNext": "Próximo",
+                    "sPrevious": "Anterior",
+                    "sFirst": "Primeiro",
+                    "sLast": "Último"
+                },
+                "oAria": {
+                    "sSortAscending": ": Ordenar colunas de forma ascendente",
+                    "sSortDescending": ": Ordenar colunas de forma descendente"
+                }
+            }
+        });
+    });
+</script>
+

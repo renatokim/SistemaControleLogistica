@@ -1,0 +1,95 @@
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.Servico.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.Servico.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.Entidade.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.IServico.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.IServico.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\obj\Release\Site.Servico.csprojResolveAssemblyReference.cache
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\obj\Release\Site.Servico.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Servico\obj\Release\Site.Servico.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.Servico\bin\Release\Site.DTO.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.Servico\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.Servico.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.Servico.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.IServico.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.IServico.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\obj\Release\Site.Servico.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.Servico\obj\Release\Site.Servico.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\obj\Release\Site.Servico.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\Estoque\Site.Servico\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.Servico.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.Servico.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.IServico.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.IServico.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\obj\Release\Site.Servico.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\obj\Release\Site.Servico.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Servico\obj\Release\Site.Servico.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.Servico.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.Servico.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.IServico.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.IServico.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\obj\Release\Site.Servico.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\obj\Release\Site.Servico.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Servico\obj\Release\Site.Servico.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.Servico.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.Servico.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.IServico.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.IServico.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\obj\Release\Site.Servico.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\obj\Release\Site.Servico.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Servico\obj\Release\Site.Servico.pdb
+C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\MySql.Data.dll
+C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Dapper.dll
+C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Dapper.pdb
+C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.Servico\bin\Release\Dapper.xml

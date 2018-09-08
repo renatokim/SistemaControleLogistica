@@ -1,0 +1,19 @@
+C:\Users\Renato\Desktop\Estoque\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\Estoque\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\Estoque\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\Estoque\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.csprojResolveAssemblyReference.cache
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.ActiveRecords\bin\Debug\CloudrailSI.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.pdb

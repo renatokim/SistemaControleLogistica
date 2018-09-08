@@ -1,0 +1,211 @@
+﻿@using Site.Enums
+@using Site.IServico.Pedidos
+@using Site.Servico.Pedidos
+@model Site.Entidade.Pedidos.Pedido
+@{
+    IClienteServico clienteServico = new ClienteServico();
+    IVendedorServico vendedorServico = new VendedorServico();
+    IProdutoServico produtoServico = new ProdutoServico();
+
+    var clientes = clienteServico.GetAll().Where(x => x.Ativo == StatusCliente.Normal).OrderBy(y => y.Nome).ToList();
+    var vendedores = vendedorServico.GetAll().Where(x => x.Ativo == Status.Ativo).OrderBy(y => y.Descricao);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>
+        </title>
+        @*<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+        rel="stylesheet">*@
+    </head>
+
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+        </script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js">
+        </script>
+        <script>
+            var needToConfirm = true;
+
+            window.onbeforeunload = function () {
+                if (needToConfirm) {
+                    return "Atenção!";
+                }
+            };
+        </script>
+
+        @using (Html.BeginForm("Edit", "Pedido"))
+        {
+            <input type="hidden" value="@Model.StatusPedido" name="StatusPedido" id="statusPedido" />
+            <input type="hidden" value="0" name="ProdutoEdit" id="produtoEdit" />
+            <input type="hidden" value="0" name="ParteAcrescimoEdit" id="parteAcrescimoEdit" />
+            <input type="hidden" value="@Model.PedidoJson" name="PedidoJson" id="pedidoJson" />
+            <input type="hidden" value="@Model.ObsDia" name="ObsDia" id="obsDia" />
+            <input type="hidden" value="@Model.AbaAndamento" name="AbaAndamento" id="abaAndamento" />
+            <input id="Id" name="Id" type="hidden" value="@Model.Id">
+
+            <table class="table" style="margin-bottom: 0;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <label>
+                                    Cliente
+                                </label>
+                                <div class="form-group">
+                                    <select name="Cliente.Id" class="form-control inputRequired" id="ClienteId">
+                                        <option value="0"></option>
+                                        @{
+                                            foreach (var cliente in clientes)
+                                            {
+                                                string selected = cliente.Id == Model.Cliente.Id ? "selected" : string.Empty;
+                                                <option value="@cliente.Id" @selected>
+                                                    @cliente.Nome
+                                                </option>
+                                            }
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <label>
+                                    Vendedor
+                                </label>
+                                <div class="form-group">
+                                    <select name="Vendedor.Id" class="form-control inputRequired" id="VendedorId">
+                                        <option value="0"></option>
+                                        @{
+                                            foreach (var vendedor in vendedores)
+                                            {
+                                                string selected = vendedor.Id == Model.Vendedor.Id ? "selected" : string.Empty;
+                                                <option value="@vendedor.Id" @selected>
+                                                    @vendedor.Descricao
+                                                </option>
+                                            }
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <label>
+                                    Data
+                                </label>
+                                <input type="Date" name="DataCriacao" class="form-control inputRequired" value="@Model.DataCriacao.ToString("yyyy-MM-dd")" id="DataCriacao">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <label>
+                                    Obs
+                                </label>
+                                <input name="Obs" type="text" class="form-control" id="ObsPedido" value="@Model.Obs">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <label>
+                                    Previsão Entrega
+                                </label>
+                                @{
+                                    if (Model.DataPrevisaoEntrega != DateTime.MinValue)
+                                    {
+                                        <input name="DataPrevisaoEntrega" type="Date" class="form-control inputRequired" id="DataPrevisaoEntrega" value="@Model.DataPrevisaoEntrega.ToString("yyyy-MM-dd")">
+                                    }
+                                    else
+                                    {
+                                        <input name="DataPrevisaoEntrega" type="Date" class="form-control inputRequired" id="DataPrevisaoEntrega">
+                                    }
+                                }
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <label>
+                                    Tamanho
+                                </label>
+                                <div class="form-group">
+                                    <select name="TipoTamanho" class="form-control" id="TamanhoPedido">
+                                        @{
+                                            foreach (var tipoTamanho in Enum.GetValues(typeof(TipoTamanho)))
+                                            {
+                                                string selected = (TipoTamanho)tipoTamanho == Model.TipoTamanho ? "selected" : string.Empty;
+                                                <option value="@Convert.ToInt32(tipoTamanho)" @selected>
+                                                    @tipoTamanho.ToString().ToUpper()
+                                                </option>
+                                            }
+                                        }
+                                   otm </select>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button id="buscarProduto" type="button" class="btn" style="margin-left: 8px">Pesquisar Produto</button>
+    
+            @Html.Partial("_Produto")
+        }
+
+        <div class="span12" style="margin-left: 150px">
+
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a id="ItensProdutoAtualAcordion" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" style="text-decoration:none">
+                            Itens Produto Atual
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body in collapse" style="height: auto;">
+                        <div class="accordion-inner">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a id="ProdutosIncluidosAcordion" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" style="text-decoration:none">
+                            Produtos Incluidos
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse" style="height: 0px;">
+                        <div class="accordion-inner">
+
+                            @Html.Partial("../ParteAcrescimo/_AdicionarProdutoDoPedido", Model)
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-8" style="text-align: center;">
+                @{
+                    if (Model.Id > 0)
+                    {
+                        <input type="submit" style="margin-top: 0px" id="btn_finalizarPedido" class="btn btn-warning" value="FINALIZAR ALTERAÇAO">
+                    }
+                    else
+                    {
+                        <input type="submit" style="margin-top: 0px" id="btn_finalizarPedido" class="btn btn-success" value="FINALIZAR INCLUSÃO">
+                    }
+                }
+            </div>
+        </div>
+
+        <script src="~/Scripts/ajax/pedidos.js"></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\bin\Release\Site.Transforms.dll
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\bin\Release\Site.Transforms.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\obj\Release\Site.Transforms.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\obj\Release\Site.Transforms.dll
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\obj\Release\Site.Transforms.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\bin\Release\Site.Transforms.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\bin\Release\Site.Transforms.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\bin\Release\Newtonsoft.Json.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\bin\Release\Newtonsoft.Json.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\obj\Release\Site.Transforms.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\obj\Release\Site.Transforms.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\obj\Release\Site.Transforms.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\bin\Release\Site.Transforms.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\bin\Release\Site.Transforms.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\bin\Release\Newtonsoft.Json.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\bin\Release\Newtonsoft.Json.xml
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\obj\Release\Site.Transforms.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\obj\Release\Site.Transforms.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\obj\Release\Site.Transforms.pdb

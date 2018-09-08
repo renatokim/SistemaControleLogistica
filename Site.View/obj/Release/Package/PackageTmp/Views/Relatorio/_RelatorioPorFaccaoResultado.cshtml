@@ -1,0 +1,25 @@
+﻿@model IList<Site.Entidade.Pedidos.Pedido>
+   
+
+<div class="container">
+    <table class="table table-condensed">
+        <tr><th></th><th>Data</th><th>Pedido</th><th>Cliente</th><th>Status</th></tr>
+        @{
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td><center><input type="checkbox" name="IdPedidos" value="@item.Id" /></center></td>
+                    <td>@item.DataCriacao.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Numero</td>
+                    <td>@item.Cliente.Nome.ToUpper()</td>
+                    <td>@item.StatusPedido</td>
+                </tr>
+            }
+        }
+        <tr>
+            <td colspan="5">
+                <input class="btn" type="submit" />
+            </td>
+        </tr>
+    </table>
+</div>

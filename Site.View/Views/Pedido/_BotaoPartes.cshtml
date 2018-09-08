@@ -1,0 +1,20 @@
+﻿@using Site.IServico.Pedidos
+@using Site.Servico.Pedidos
+
+@{
+    IParteAcrescimoServico parteAcrescimoServico = new ParteAcrescimoServico();
+    var tipoParteAcrescimo = parteAcrescimoServico.GetTipoParte();
+}
+
+<div class="dropdown" style="margin-top:10px; margin-left:-2px;">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width: 80px; margin-top: 5px">
+        Partes
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        @foreach (var tipo in tipoParteAcrescimo)
+        {
+            <li><a href="#" class="botaoPartes" data-id-categoria="@tipo.Id" data-toggle="modal" data-target="#Modal_Partes">@tipo.Nome</a></li>
+        }
+    </ul>
+</div>

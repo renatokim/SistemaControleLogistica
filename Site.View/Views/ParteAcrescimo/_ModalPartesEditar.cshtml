@@ -1,0 +1,110 @@
+﻿<!--  MODAL PARTES -->
+
+@{
+    Layout = null;
+}
+
+<input type="hidden" id="ParteOuAcrescimo" name="ParteOuAcrescimo" />
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">ESPECIFICAÇÕES</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+
+            <table width="100%">
+                <tr>
+                    <td width="10%">
+                        <input class="form-control input-medium" type="text" id="quantidadeItemPeca" name="quantidadeItemPeca" placeholder="Qtde" style="width: 60px" />
+                    </td>
+                    <td width="45%">
+                        <div id="idModal">
+                            <select id="ParteCategoria" name="ParteCategoria" class="form-control input" style="width: 230px">
+                                <option value="0"></option>
+                            </select>
+                        </div>
+                    </td>
+                    <td width="45%">
+                        <input class="form-control input-medium" type="text" id="obsItemPeca" name="obsItemPeca" placeholder="Obs" style="width: 235px" />
+                    </td>
+                </tr>
+
+            </table>
+
+            <table class="" id="table_tipo_parte" width="100%">
+                <tr>
+                    <td width="10%">
+                        <input class="form-control input-medium" type="text" id="quantidadeAviamento" name="quantidadeAviamento" placeholder="Qtde" style="width: 60px" />
+                    </td>
+                    <td width="27%">
+                        <div>
+                            <select id="idTipoAviamento" name="TipoAviamento" class="form-control input" style="width: 145px">
+                                <option value="0">Tipo Aviamento</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td width="27%">
+                        <div>
+                            <select id="idCorAviamento" name="CorAviamento" class="form-control input" style="width: 145px">
+                                <option value="0">Cor Aviamento</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td width="27%">
+                        <div>
+                            <select id="idCodigoAviamento" name="CodigoAviamento" class="form-control input" style="width: 145px">
+                                <option value="0">Codigo Aviamento</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td width="9%">
+                        <button class="btn glyphicon-class hidden" id="adicionarAviamento" style="margin-top: -10px">+</button>
+                    </td>
+                </tr>
+            </table>
+
+            <br />
+
+            <table width="100%">
+                <tr>
+                    <td colspan="3">
+                        <input id="checkboxParte" style="margin-top:-2px" type="checkbox" name="usaMesmoTecido" value="1" checked="checked">
+                        Usar o mesmo tecido
+                    </td>
+                </tr>
+                <tr id="trMesmoTecido" class="hidden">
+                    <td width="34%">
+                        <select id="tecidoItem" name="tecido" class="form-control input" style="width: 184px">
+                            <option value="">Tipo Tecido</option>
+                        </select>
+                    </td>
+                    <td width="33%">
+                        <select id="corItem" name="cor" class="form-control input" style="width: 184px; ">
+                            <option value="">Cor</option>
+                        </select>
+                    </td>
+                    <td width="33%">
+                        <select id="codigoItem" name="codigo" class="form-control" style="width: 184px; ">
+                            <option value="">Codigo</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            
+            <br />
+
+            <table width="100%" id="tableItens" class="table hidden">
+            </table>
+
+
+
+
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true" id="adicionarPartes">Inserir</button>
+            </div>
+        </div>
+    </div>
+
+<!--  /MODAL -->  

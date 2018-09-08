@@ -1,0 +1,27 @@
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\bin\Debug\Site.Transforms.dll
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\bin\Debug\Site.Transforms.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\obj\Debug\Site.Transforms.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\obj\Debug\Site.Transforms.dll
+C:\Users\Renato\Desktop\Estoque\Site.Transforms\obj\Debug\Site.Transforms.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\bin\Debug\Site.Transforms.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\bin\Debug\Site.Transforms.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\obj\Debug\Site.Transforms.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Transforms\obj\Debug\Site.Transforms.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Transforms\bin\Debug\Site.Transforms.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Transforms\bin\Debug\Site.Transforms.pdb
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Transforms\bin\Debug\Newtonsoft.Json.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Transforms\bin\Debug\Newtonsoft.Json.xml
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Transforms\obj\Debug\Site.Transforms.csprojResolveAssemblyReference.cache
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Transforms\obj\Debug\Site.Transforms.dll
+D:\PROJETOS CODIGOS VIDEOS\WebAPI\EstoqueWeb WebApi\Site.Transforms\obj\Debug\Site.Transforms.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\bin\Debug\Site.Transforms.dll.config
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\bin\Debug\Site.Transforms.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\bin\Debug\Site.Transforms.pdb
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\bin\Debug\CloudrailSI.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\obj\Debug\Site.Transforms.csprojResolveAssemblyReference.cache
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\obj\Debug\Site.Transforms.dll
+C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\obj\Debug\Site.Transforms.pdb

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51FDFF8B-DAB6-417C-918A-27F7B83BC1B7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Site.Servico</RootNamespace>
+    <AssemblyName>Site.Servico</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CloudrailSI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GitHub.Api.1.0.3\lib\CloudrailSI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chamados\ChamadoServico.cs" />
+    <Compile Include="Chamados\HistoricoServico.cs" />
+    <Compile Include="FreteServico.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios\RelatorioServico.cs" />
+    <Compile Include="RotaServico.cs" />
+    <Compile Include="ServiceFactory.cs" />
+    <Compile Include="TransporteServico.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Site.DTO\Site.DTO.csproj">
+      <Project>{B85E0D48-8296-475F-96A7-9AEA99688E1E}</Project>
+      <Name>Site.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.Entidade\Site.Entidade.csproj">
+      <Project>{D28BE576-3E19-4851-82BD-EC22637AABF3}</Project>
+      <Name>Site.Entidade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.Enums\Site.Enums.csproj">
+      <Project>{974A35C9-19A4-4F5C-89EA-224B7D614B3C}</Project>
+      <Name>Site.Enums</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.IRepositorio\Site.IRepositorio.csproj">
+      <Project>{FA5E0D96-AE22-4723-99A3-277C385DBBEE}</Project>
+      <Name>Site.IRepositorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.IServico\Site.IServico.csproj">
+      <Project>{DF76F0EB-8829-4CF6-9BF4-303926CF91BF}</Project>
+      <Name>Site.IServico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.Repositorio\Site.Repositorio.csproj">
+      <Project>{295DB307-985F-4A3F-B6D9-A313B185ED9A}</Project>
+      <Name>Site.Repositorio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cadastro\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

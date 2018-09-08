@@ -1,0 +1,33 @@
+﻿@using Site.DTO
+@using Site.Enums
+@{
+    var mensagem = TempData["Mensagem"] as DTOMensagem;
+
+    if (mensagem != null)
+    {
+        if (mensagem.TipoMensagem == TipoMensagem.Sucesso)
+        {
+            <div class="alert alert-success">
+                <h4>
+                    @mensagem.Mensagem
+                </h4>
+            </div>
+        }
+        else if (mensagem.TipoMensagem == TipoMensagem.Alerta)
+        {
+            <div class="alert alert-info">
+                <h4>
+                    @mensagem.Mensagem
+                </h4>
+            </div>
+        }
+        else if (mensagem.TipoMensagem == TipoMensagem.Erro)
+        {
+            <div class="alert alert-danger">
+                <h4>
+                    @mensagem.Mensagem
+                </h4>
+            </div>
+        }
+    }
+}

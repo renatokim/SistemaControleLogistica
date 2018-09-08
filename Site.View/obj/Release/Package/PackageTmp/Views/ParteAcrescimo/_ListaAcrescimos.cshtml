@@ -1,0 +1,109 @@
+﻿@using Site.Enums
+@using Site.IServico.Pedidos
+@using Site.Servico.Pedidos
+@model Site.Entidade.Pedidos.ParteAcrescimo
+@{
+    Layout = null;
+}
+
+<script src="~/Scripts/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#tabela').DataTable({
+            "oLanguage": {
+                "sProcessing": "Processando...",
+                "sLengthMenu": "Mostrar _MENU_ registros",
+                "sZeroRecords": "Não foram encontrados resultados",
+                "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando de 0 até 0 de 0 registros",
+                "sInfoFiltered": "",
+                "sInfoPostFix": "",
+                "sSearch": "Buscar:",
+                "sUrl": "",
+                "oPaginate": {
+                    "sFirst": "Primeiro",
+                    "sPrevious": "Anterior",
+                    "sNext": "Seguinte",
+                    "sLast": "Último"
+                }
+            }
+        });
+    });
+</script>
+
+@{
+    IParteAcrescimoServico parteAcrescimoServico = new ParteAcrescimoServico();
+    var partes = parteAcrescimoServico.GetAllAcrescimos().OrderBy(d => d.Descricao).Where(s => s.Status == Model.Status).ToList();
+
+    <table id="tabela" class="table" width="100%">
+        <thead>
+            <tr>
+                <th>
+                    Categoria
+                </th>
+                <th>
+                    Descrição
+                </th>
+                <th>
+                    Consumo Tecido
+                </th>
+                <th>
+                    Unidade Medida
+                </th>
+                <th>
+                    Status
+                </th>
+                <th width="10%">
+                    Tipo Aviamento
+                </th>
+                <th width="5%">
+                    Ação
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var parte in partes)
+        {
+            <tr>
+                <td>
+                    @parte.Categoria.Descricao
+                </td>
+                <td>
+                    @parte.Descricao
+                </td>
+                <td>
+                    @parte.ConsumoTecido.ToString("0.00")
+                </td>
+                <td>
+                    @parte.UnidadeMedida
+                </td>
+                <td>
+                    @parte.Status
+                </td>
+                <td>
+                    @{
+                        string tipos = string.Empty;
+
+                        foreach (var tipoAviamento in parte.TipoAviamento)
+                        {
+                            tipos += tipoAviamento.TipoAviamento.Descricao + @" " + tipoAviamento.ConsumoAviamento.ToString("F") + @" ";
+                        }
+
+                        if (tipos.Length > 1)
+                        {
+                            //tipos = tipos.Remove(tipos.Length - 2);
+                        }
+
+                        @tipos
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new { id = parte.Id })
+                </td>
+            </tr>
+         }
+        </tbody>
+
+    </table>
+}

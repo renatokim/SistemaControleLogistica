@@ -1,0 +1,113 @@
+﻿<script src="~/Scripts/ajax/relatorio.js"></script>
+
+@using Site.DTO
+@using Site.Entidade
+
+@model Site.DTO.Relatorio.DTOFiltroRelatorioPorFaccao
+
+@{
+    var faccoes = (IList<DTOFaccao>)TempData["Faccoes"];
+}
+
+@using (Html.BeginForm("RelatorioPorFaccaoResultado", "Relatorio"))
+{
+    <div class="">
+    
+        <legend style ="margin-left: 50px;">Relatório por Facção</legend>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label>
+                                Facção
+                            </label>
+                            <select id="faccao" name="Faccao" class="form-control">
+                                @{
+                                    <option value="0"></option>
+
+                                    foreach (var item in faccoes)
+                                    {
+                                        <option value="@item.Id">
+                                            @item.Descricao.ToUpper()
+                                        </option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>
+                                Data Inicial
+                            </label>
+                            <input id="dataInicial" name="DataInicial" type="date" value="@Model.DataInicial.ToString("yyyy-MM-dd")" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>
+                                Data Final
+                            </label>
+                            <input id="dataFinal" name="DataFinal" type="date" value="@Model.DataFinal.ToString("yyyy-MM-dd")" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>
+                                Ação
+                            </label>
+                            <select id="acao" name="Acao" class="form-control">
+                                <option value="0">
+                                    Tudo
+                                </option>
+                                <option value="1">
+                                    Só Envio
+                                </option>
+                                <option value="2">
+                                    Só Retorno
+                                </option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>
+                                Status Fluxo
+                            </label>
+                            <select id="status" name="StatusFluxo" class="form-control">
+                                <option value="2">
+                                    Todos
+                                </option>
+                                <option value="0">
+                                    Pendente
+                                </option>
+                                <option value="1">
+                                    Concluído
+                                </option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-top: 25px" class="form-group">                      
+                            <a id="buscarRelatorioFaccao" href="#" class="btn btn-default">Buscar</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    
+    
+        <div id="result">
+        
+        
+        
+        
+
+        </div>
+
+
+
+    </div>
+}

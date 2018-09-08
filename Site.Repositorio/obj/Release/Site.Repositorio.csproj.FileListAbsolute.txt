@@ -1,0 +1,77 @@
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\bin\Release\Site.Entidade.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\obj\Release\Site.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\obj\Release\Site.Repositorio.dll
+C:\Users\Renato\documents\visual studio 2013\Projects\Site\Site.Repositorio\obj\Release\Site.Repositorio.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.Repositorio\bin\Release\ActiveRecords.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.Repositorio\bin\Release\Site.DTO.dll
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.Repositorio\bin\Release\ActiveRecords.pdb
+C:\Users\Renato\Documents\Visual Studio 2013\Projects\Site\Site.Repositorio\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\obj\Release\Site.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\obj\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\obj\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\Estoque\Site.Repositorio\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\obj\Release\Site.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\obj\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb\Site.Repositorio\obj\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\obj\Release\Site.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\obj\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWebFactory\Site.Repositorio\obj\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.ActiveRecords.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.DTO.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.Entidade.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.Enums.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.IRepositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.DTO.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.Entidade.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.Enums.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Site.IRepositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\obj\Release\Site.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\obj\Release\Site.Repositorio.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\obj\Release\Site.Repositorio.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Dapper.dll
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Dapper.pdb
+C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Dapper.xml
+C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\MySql.Data.dll

@@ -1,0 +1,49 @@
+﻿@using Site.Entidade.Pedidos
+@using Site.Enums
+@using Site.IServico.Pedidos
+@using Site.Servico.Pedidos
+
+@{
+    ITamanhoServico tamanhoServico = new TamanhoServico();
+    var tamanhos = tamanhoServico.GetAllTamanhos().Where(x => x.Status == Status.Ativo).ToList();
+}
+<div class="modal" id="Modal_Tamanhos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" hidden>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Tamanhos</h4>
+            </div>
+            <div class="modal-body">
+                <table id="tableTamanhos">
+                    <tr>
+                        <td>
+                            <input class="sonumero input-mini" type="text" id="qtdeTamanho" name="quantidade" placeholder="Qtde" />
+                        </td>
+                        <td>
+                            <select id="SelectTamanhos" name="Tamanho" class="form-control input input-medium">
+                                <option value="0"></option>
+                                @foreach (var tamanho in tamanhos)
+                                {
+                                    <option value="@tamanho.Id">@tamanho.Descricao</option>
+                                }
+                            </select>
+                        </td>
+                        <td>
+                            <input class="" type="text" id="obsTamanho" name="obs" placeholder="Obs" />
+                        </td>
+                        <td>
+                            <button class="btn glyphicon-class" id="adicionarTamanho" style="margin-top: -10px">+</button>
+                        </td>
+                    </tr>
+                </table>
+                <table id="divTamanhosIncluidos" class="table">
+
+                </table>
+            </div>
+            <div class="modal-footer">
+                <input class="btn btn-default" type="button" data-dismiss="modal" value="Inserir" onclick="" />
+            </div>
+        </div>
+    </div>
+</div>
