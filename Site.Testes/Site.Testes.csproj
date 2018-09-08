@@ -63,6 +63,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\maxiPago\maxiPago.csproj">
+      <Project>{d86c2984-68fa-49e5-a0f1-26780c669200}</Project>
+      <Name>maxiPago</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Site.ActiveRecords\Site.ActiveRecords.csproj">
       <Project>{191b1e71-1a68-42cd-a892-29ad760fecb2}</Project>
       <Name>Site.ActiveRecords</Name>
