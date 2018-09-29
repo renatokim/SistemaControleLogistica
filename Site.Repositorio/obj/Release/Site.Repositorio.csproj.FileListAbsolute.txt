@@ -75,3 +75,24 @@ C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Dapper.dl
 C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Dapper.pdb
 C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\Dapper.xml
 C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.Repositorio\bin\Release\MySql.Data.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.Repositorio.dll.config
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.Repositorio.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.Repositorio.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\CloudrailSI.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Dapper.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\MySql.Data.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.ActiveRecords.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.DTO.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.Entidade.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.Enums.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.IRepositorio.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.DTO.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.Entidade.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.Enums.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Site.IRepositorio.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Dapper.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\bin\Release\Dapper.xml
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\obj\Release\Site.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\obj\Release\Site.Repositorio.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Repositorio\obj\Release\Site.Repositorio.pdb

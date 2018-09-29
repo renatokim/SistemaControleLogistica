@@ -74,3 +74,4 @@ C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.IServ
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.IServico\obj\Debug\Site.IServico.csprojResolveAssemblyReference.cache
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.IServico\obj\Debug\Site.IServico.dll
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.IServico\obj\Debug\Site.IServico.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.IServico\bin\Debug\Site.IServico.dll.config

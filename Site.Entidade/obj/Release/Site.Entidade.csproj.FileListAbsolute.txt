@@ -40,3 +40,25 @@ C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Entidade\obj\Release\Site.Entidad
 C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Entidade\obj\Release\Site.Entidade.pdb
 C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.Entidade\bin\Release\Site.DTO.dll
 C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.Entidade\bin\Release\Site.DTO.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.Entidade.dll.config
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.Entidade.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.Entidade.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\CloudrailSI.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Newtonsoft.Json.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.ActiveRecords.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.DTO.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.Enums.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\System.Web.Cors.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\System.Web.Http.Cors.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\System.Web.Http.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.DTO.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Site.Enums.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\Newtonsoft.Json.xml
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\System.Web.Http.xml
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\bin\Release\System.Web.Http.Cors.xml
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\obj\Release\Site.Entidade.csprojResolveAssemblyReference.cache
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\obj\Release\Site.Entidade.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Entidade\obj\Release\Site.Entidade.pdb

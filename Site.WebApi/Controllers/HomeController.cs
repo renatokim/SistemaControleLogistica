@@ -8,10 +8,11 @@ using Site.DTO.Chamado;
 using Site.Entidade.Chamados;
 using Site.IServico.Chamados;
 using Site.Servico.Chamados;
+using System.Web.Http.Cors;
 
 namespace Site.WebApi.Controllers
 {
-    [RoutePrefix("api/v1/public")]
+    [RoutePrefix("api/v1"), EnableCors(origins: "*", headers: "*", methods: "*")]
     public class HomeController : ApiController
     {
         readonly IChamadoServico _chamadoServico = new ChamadoServico();

@@ -120,3 +120,4 @@ C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Servi
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Servico\obj\Debug\Site.Servico.csprojResolveAssemblyReference.cache
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Servico\obj\Debug\Site.Servico.dll
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Servico\obj\Debug\Site.Servico.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Servico\bin\Debug\Site.Servico.dll.config

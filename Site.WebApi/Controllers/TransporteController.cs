@@ -7,10 +7,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Site.WebApi.Controllers
 {
-    [RoutePrefix("api/v1")]
+    [RoutePrefix("api/v1"), EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TransporteController : ApiController
     {
         private readonly ITransporteServico _transporteServico = ServiceFactory.CreateInstance<ITransporteServico>();

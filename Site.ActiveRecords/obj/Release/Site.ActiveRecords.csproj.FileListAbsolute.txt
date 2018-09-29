@@ -13,3 +13,9 @@ C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.ActiveRecords\bin\Release\Site.Ac
 C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.ActiveRecords\obj\Release\Site.ActiveRecords.csprojResolveAssemblyReference.cache
 C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.ActiveRecords\obj\Release\Site.ActiveRecords.dll
 C:\Users\renato\Desktop\EstoqueWeb WebApi\Site.ActiveRecords\obj\Release\Site.ActiveRecords.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.ActiveRecords\bin\Release\Site.ActiveRecords.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.ActiveRecords\bin\Release\Site.ActiveRecords.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.ActiveRecords\bin\Release\CloudrailSI.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.ActiveRecords\obj\Release\Site.ActiveRecords.csprojResolveAssemblyReference.cache
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.ActiveRecords\obj\Release\Site.ActiveRecords.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.ActiveRecords\obj\Release\Site.ActiveRecords.pdb

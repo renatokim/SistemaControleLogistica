@@ -17,3 +17,12 @@ C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\bin\Release\Newtonsoft
 C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\obj\Release\Site.Transforms.csprojResolveAssemblyReference.cache
 C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\obj\Release\Site.Transforms.dll
 C:\Users\Renato\Desktop\EstoqueWeb WebApi\Site.Transforms\obj\Release\Site.Transforms.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\bin\Release\Site.Transforms.dll.config
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\bin\Release\Site.Transforms.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\bin\Release\Site.Transforms.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\bin\Release\CloudrailSI.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\bin\Release\Newtonsoft.Json.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\bin\Release\Newtonsoft.Json.xml
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\obj\Release\Site.Transforms.csprojResolveAssemblyReference.cache
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\obj\Release\Site.Transforms.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.Transforms\obj\Release\Site.Transforms.pdb

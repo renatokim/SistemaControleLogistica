@@ -161,3 +161,6 @@ C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.WebAp
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.WebApi\obj\Debug\Site.WebApi.csprojResolveAssemblyReference.cache
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.WebApi\obj\Debug\Site.WebApi.dll
 C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.WebApi\obj\Debug\Site.WebApi.pdb
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.WebApi\bin\System.Web.Cors.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.WebApi\bin\System.Web.Http.Cors.dll
+C:\Users\Rebato\Desktop\GitControleLogistica\SistemaControleLogistica\Site.WebApi\bin\System.Web.Http.Cors.xml
