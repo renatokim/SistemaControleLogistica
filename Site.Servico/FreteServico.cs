@@ -29,5 +29,11 @@ namespace Site.Servico
         {
             _freteRepositorio.Excluir(id);
         }
+
+        public IList<DTOFreteGrid> GetFretes()
+        {
+            var fretes = _freteRepositorio.GetFretes();
+            return fretes;
+        }
     }
 }

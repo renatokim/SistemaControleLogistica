@@ -25,6 +25,14 @@ namespace Site.WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("fretes_grid")]
+        public IList<DTOFreteGrid> GetFretes()
+        {
+            var fretes = _freteServico.GetFretes();
+            return fretes;
+        }
+
+        [HttpGet]
         [Route("frete/{id}")]
         public DTOFrete Get(int id)
         {

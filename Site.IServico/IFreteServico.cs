@@ -10,6 +10,7 @@ namespace Site.IServico
     public interface IFreteServico
     {
         IList<DTOFrete> GetAll();
+        IList<DTOFreteGrid> GetFretes();
         void Salvar(DTOFrete frete);
         void Excluir(int id);
     }

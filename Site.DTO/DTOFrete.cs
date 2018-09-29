@@ -13,4 +13,12 @@ namespace Site.DTO
         public int Uf { get; set; }
         public double Valor { get; set; }
     }
+
+    public class DTOFreteGrid
+    {
+        public int Id { get; set; }
+        public string Frota { get; set; }
+        public string Uf { get; set; }
+        public string Valor { get; set; }
+    }
 }

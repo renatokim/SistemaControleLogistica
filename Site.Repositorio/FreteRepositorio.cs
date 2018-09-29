@@ -32,6 +32,30 @@ namespace Site.Repositorio
             }
         }
 
+        public IList<DTOFreteGrid> GetFretes()
+        {
+            using (var contexto = new Contexto())
+            {
+                var result = contexto._minhaConexao.Query<DTOFreteGrid>(@"
+                    SELECT f.id AS id,
+                           CASE
+                               WHEN f.id = 1 THEN 'MG'
+                               WHEN f.id = 2 THEN 'RJ'
+                               WHEN f.id = 3 THEN 'SP'
+                               ELSE 'ES'
+                           END AS uf,
+                           CASE
+                               WHEN f.frota_id = 1 THEN 'MOTO'
+                               WHEN f.frota_id = 2 THEN 'CAMINHONETE'
+                               ELSE 'CAMINHÃO'
+                           END AS frota,
+                           f.valor AS valor
+                    FROM frete f").ToList();
+
+                return result;
+            }
+        }
+
         public void Salvar(DTOFrete frete)
         {
             if (frete.Id > 0)

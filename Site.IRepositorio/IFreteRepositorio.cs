@@ -10,6 +10,7 @@ namespace Site.IRepositorio
     public interface IFreteRepositorio
     {
         IList<DTOFrete> GetAll();
+        IList<DTOFreteGrid> GetFretes();
         void Salvar(DTOFrete frete);
         void Excluir(int id);
     }
