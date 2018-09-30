@@ -93,5 +93,67 @@ namespace Site.Repositorio
                 status.Id = Convert.ToInt32(result["LASTID"]);
             }
         }
+
+        public IList<DTOTransporteGrid> GetTransportes()
+        {
+            using (var contexto = new Contexto())
+            {
+                var result = contexto._minhaConexao.Query<DTOTransporteGrid>(@"
+                        SELECT t.id AS id,
+                               upper(c.nome) AS clienteColeta,
+                               upper(c2.nome) AS clienteEntrega,
+                               DATE_FORMAT(t.previsao_entrega, '%d/%m/%Y') AS previsaoEntrega,
+                               CASE
+                                   WHEN c.uf = 1 THEN 'MG'
+                                   WHEN c.uf = 2 THEN 'RJ'
+                                   WHEN c.uf = 3 THEN 'SP'
+                                   ELSE 'ES'
+                               END AS ufremetente,
+                               CASE
+                                   WHEN c.uf = 1 THEN 'MG'
+                                   WHEN c.uf = 2 THEN 'RJ'
+                                   WHEN c.uf = 3 THEN 'SP'
+                                   ELSE 'ES'
+                               END AS ufdestinatario,
+                               CASE
+                                   WHEN t.status = 0 THEN 'SOLICITADO'
+                                   WHEN t.status = 1 THEN 'COLETADO'
+                                   WHEN t.status = 2 THEN 'EM EXPEDIÇÃO'
+                                   WHEN t.status = 3 THEN 'EM ENTREGA'
+                                   WHEN t.status = 4 THEN 'ENTREGUE'
+                                   WHEN t.status = 5 THEN 'DEVOLVIDO'
+                                   ELSE 'CANCELADO'
+                               END AS status
+                        FROM transporte t
+                        INNER JOIN clientes c ON c.id = t.cliente_id_coleta
+                        INNER JOIN clientes c2 ON c2.id = t.cliente_id_entrega").ToList();
+
+                return result;
+            }
+        }
+
+        public IList<DTOClienteGrid> GetClientes()
+        {
+            using (var contexto = new Contexto())
+            {
+                var result = contexto._minhaConexao.Query<DTOClienteGrid>(@"
+                        SELECT c.id AS Id,
+                               upper(c.nome) AS Nome,
+                               upper(c.logradouro)AS Endereco,
+                               (c.numero) AS Numero,
+                               upper(c.bairro) AS Bairro,
+                               c.cep AS Cep,
+                               CASE
+                                   WHEN c.uf = 1 THEN 'MG'
+                                   WHEN c.uf = 2 THEN 'RJ'
+                                   WHEN c.uf = 3 THEN 'SP'
+                                   ELSE 'ES'
+                               END AS Uf,
+                               upper(c.cidade) AS Cidade
+                        FROM clientes c").ToList();
+
+                return result;
+            }
+        }
     }
 }

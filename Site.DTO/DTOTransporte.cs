@@ -18,4 +18,33 @@ namespace Site.DTO
         public DTORota Rota { get; set; }
         public int RotaId { get; set; }
     }
+
+    public class DTOTransporteGrid
+    {
+        public int Id { get; set; }
+        public string ClienteColeta { get; set; }
+        public string ClienteEntrega { get; set; }
+        public string PrevisaoEntrega { get; set; }
+        public string UfRemetente { get; set; }
+        public string UfDestinatario { get; set; }
+        public string Status { get; set; }
+    }
+
+    public class DTOClienteGrid
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Endereco { get; set; }
+        public string Numero { get; set; }
+        public string Bairro { get; set; }
+        public string Cep { get; set; }
+        public string Uf { get; set; }
+        public string Cidade { get; set; }
+    }
+
+    public class DTOTransporteRota
+    {
+        public int Id { get; set; }
+        public string Rota { get; set; }
+    }
 }

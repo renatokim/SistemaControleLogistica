@@ -34,5 +34,17 @@ namespace Site.Servico
         {
             _transporteRepositorio.IncluirStatus(status);
         }
+
+        public IList<DTOTransporteGrid> GetTransportes()
+        {
+            var transportes = _transporteRepositorio.GetTransportes();
+            return transportes;
+        }
+
+        public IList<DTOClienteGrid> GetClientes()
+        {
+            var clientes = _transporteRepositorio.GetClientes();
+            return clientes;
+        }
     }
 }

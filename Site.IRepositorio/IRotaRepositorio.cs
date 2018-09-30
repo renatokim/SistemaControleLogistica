@@ -12,5 +12,6 @@ namespace Site.IRepositorio
         IList<DTORota> GetAll();
         void Salvar(DTORota frete);
         void Excluir(int id);
+        IList<DTORotaGrid> GetRotas();
     }
 }

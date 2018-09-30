@@ -13,5 +13,7 @@ namespace Site.IServico
         void Salvar(DTOTransporte transporte);
         void Excluir(int id);
         void IncluirStatus(DTOTransporteStatus status);
+        IList<DTOTransporteGrid> GetTransportes();
+        IList<DTOClienteGrid> GetClientes();
     }
 }

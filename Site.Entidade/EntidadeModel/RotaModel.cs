@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Site.Entidade.EntidadeModel
 {
-    [Tabela("frete")]
+    [Tabela("rota")]
     public class RotaModel
     {
         [Campo("id")]

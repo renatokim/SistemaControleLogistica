@@ -17,10 +17,26 @@ namespace Site.WebApi.Controllers
         private readonly ITransporteServico _transporteServico = ServiceFactory.CreateInstance<ITransporteServico>();
 
         [HttpGet]
+        [Route("transporte_clientes")]
+        public IList<DTOClienteGrid> GetClientes()
+        {
+            var clientes = _transporteServico.GetClientes();
+            return clientes;
+        }
+
+        [HttpGet]
         [Route("transportes")]
         public IList<DTOTransporte> Get()
         {
             var transportes = _transporteServico.GetAll();
+            return transportes;
+        }
+
+        [HttpGet]
+        [Route("transportes_grid")]
+        public IList<DTOTransporteGrid> GetTransportes()
+        {
+            var transportes = _transporteServico.GetTransportes();
             return transportes;
         }
 

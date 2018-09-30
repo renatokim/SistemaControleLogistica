@@ -29,5 +29,11 @@ namespace Site.Servico
         {
             _rotaRepositorio.Excluir(id);
         }
+
+        public IList<DTORotaGrid> GetRotas()
+        {
+            var rotas = _rotaRepositorio.GetRotas();
+            return rotas;
+        }
     }
 }

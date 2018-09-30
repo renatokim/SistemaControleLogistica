@@ -77,5 +77,26 @@ namespace Site.Repositorio
                 contexto.ExecutaComando(sql);
             }
         }
+
+        public IList<DTORotaGrid> GetRotas()
+        {
+            using (var contexto = new Contexto())
+            {
+                var result = contexto._minhaConexao.Query<DTORotaGrid>(@"
+                        SELECT DATE_FORMAT(r.data_criacao, '%d/%m/%Y') AS DATA,
+                               DATE_FORMAT(r.data_entrega, '%d/%m/%Y') AS DataEntrega,
+                               r.id AS Id,
+                               LPAD(r.id, '5', '0') AS Rota,
+                               CASE
+                                   WHEN r.uf_id = 1 THEN 'MG'
+                                   WHEN r.uf_id = 2 THEN 'RJ'
+                                   WHEN r.uf_id = 3 THEN 'SP'
+                                   ELSE 'ES'
+                               END AS UfEntrega
+                        FROM rota r").ToList();
+
+                return result;
+            }
+        }
     }
 }

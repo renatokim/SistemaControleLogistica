@@ -17,10 +17,28 @@ namespace Site.WebApi.Controllers
         private readonly IRotaServico _rotaServico = ServiceFactory.CreateInstance<IRotaServico>();
 
         [HttpGet]
+        [Route("rotas_grid")]
+        public IList<DTORotaGrid> GetRotas()
+        {
+            var rotas = _rotaServico.GetRotas();
+            return rotas;
+        }
+
+        [HttpGet]
         [Route("rotas")]
         public IList<DTORota> Get()
         {
             var rotas = _rotaServico.GetAll();
+            return rotas;
+        }
+
+        [HttpGet]
+        [Route("rotas_response")]
+        public IList<DTORotaResponse> GetRotasResponse()
+        {
+            var rotas = _rotaServico.GetAll()
+                            .Select(x => new DTORotaResponse { Id = x.Id, Rota = x.Id.ToString().PadLeft(5, '0') } )
+                            .ToList();
             return rotas;
         }
 

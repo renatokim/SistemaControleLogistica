@@ -22,4 +22,19 @@ namespace Site.DTO
         public DateTime DataEntrega { get; set; }
         public IList<DTOTransporte> Transportes { get; set; }
     }
+
+    public class DTORotaResponse
+    {
+        public int Id { get; set; }
+        public string Rota { get; set; }
+    }
+
+    public class DTORotaGrid
+    {
+        public int Id { get; set; }
+        public string Data { get; set; }
+        public string DataEntrega { get; set; }
+        public string UfEntrega { get; set; }
+        public string Rota { get; set; }
+    }
 }
