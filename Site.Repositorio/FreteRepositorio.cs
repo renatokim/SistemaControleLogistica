@@ -39,9 +39,9 @@ namespace Site.Repositorio
                 var result = contexto._minhaConexao.Query<DTOFreteGrid>(@"
                     SELECT f.id AS id,
                            CASE
-                               WHEN f.id = 1 THEN 'MG'
-                               WHEN f.id = 2 THEN 'RJ'
-                               WHEN f.id = 3 THEN 'SP'
+                               WHEN f.uf = 1 THEN 'MG'
+                               WHEN f.uf = 2 THEN 'RJ'
+                               WHEN f.uf = 3 THEN 'SP'
                                ELSE 'ES'
                            END AS uf,
                            CASE
