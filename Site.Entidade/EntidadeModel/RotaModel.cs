@@ -29,6 +29,9 @@ namespace Site.Entidade.EntidadeModel
 
         [Campo("data_entrega")]
         public string DataEntrega { get; set; }
+        
+        [Campo("funcionario_id")]
+        public string FuncionarioId { get; set; }        
 
         public static RotaModel Transform(DTORota rota)
         {
@@ -39,7 +42,8 @@ namespace Site.Entidade.EntidadeModel
                 FrotaId = rota.FrotaId.ToString(CultureInfo.InvariantCulture),
                 UfId = rota.UfId.ToString(CultureInfo.InvariantCulture),
                 DataCriacao = rota.DataCriacao.ToString("yyyy-MM-dd HH:mm:ss"),
-                 DataEntrega = rota.DataEntrega.ToString("yyyy-MM-dd")
+                DataEntrega = rota.DataEntrega.ToString("yyyy-MM-dd"),
+                FuncionarioId = rota.FuncionarioId.ToString(CultureInfo.InvariantCulture)                
             };
 
             return modeloModel;
