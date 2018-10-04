@@ -49,6 +49,24 @@ namespace Site.WebApi.Controllers
             var rotas = _rotaServico.GetAll().Where(x => x.Id == id).FirstOrDefault();
             return rotas;
         }
+        
+        [HttpGet]
+        [Route("rota_editar/{id}")]
+        public DTORotaEditar GetRota(int id)
+        {
+            var rota = _rotaServico.GetAll().Where(x => x.Id == id).FirstOrDefault();
+            return new DTORotaEditar
+                        {
+                            Id = rota.Id,
+                            TransporteId = rota.TransporteId,
+                            FrotaId = rota.FrotaId,
+                            FuncionarioId = rota.FuncionarioId,
+                            UfId = rota.UfId,
+                            DataCriacao = rota.DataCriacao.ToString("yyyy-MM-dd"),
+                            DataEntrega = rota.DataEntrega.ToString("yyyy-MM-dd"),
+                            RotaId = rota.Id.ToString().PadLeft(5, '0')
+                        };
+        }        
 
         [HttpPost]
         [Route("rota")]
