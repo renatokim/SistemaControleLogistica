@@ -37,4 +37,16 @@ namespace Site.DTO
         public string UfEntrega { get; set; }
         public string Rota { get; set; }
     }
+    
+    public class DTORotaEditar
+    {
+        public int Id { get; set; }
+        public int TransporteId { get; set; }
+        public int FrotaId { get; set; }
+        public int FuncionarioId { get; set; }
+        public int UfId { get; set; }
+        public string DataCriacao { get; set; }
+        public string DataEntrega { get; set; }
+        public string RotaId { get; set; }
+    }    
 }
