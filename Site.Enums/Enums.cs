@@ -106,7 +106,7 @@ namespace Site.Enums
 
     public enum StatusColeta
     {
-        Pendente = 1,
+        Pendente = 0,
         Coletado,
         EmEntrega,
         Entregue,
